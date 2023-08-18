@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="resposive.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>SGPA Calculator</h1>
+    </header>
+
+    <div class="nav">
+        <ul>
+            <li id="dep1" onclick="fun1()">CSE</li>
+            <li id="dep2" onclick="fun2()">ECE</li>
+            <li id="dep3" onclick="fun3()">ME</li>
+            <li id="dep4" onclick="fun4()">CV</li>
+        </ul>
+    </div>
+
+    <div class="container" id="main">
+
+        <div class="formOne">
+            <div class="heading"><h2>Third Semester (21Scheme)</h2>
+            <hr>
+        </div>
+
+           <div class="subList">
+            <div class="input1">
+                <h4>21MAT31</h4>
+                <input type="text" placeholder="0 - 100">
+            </div>
+
+            <div class="input1">
+                <h4 id="depSub1">Data Structure & Application</h4>
+                <input type="text" placeholder="0 - 100">
+            </div>
+
+            <div class="input1">
+                <h4 id="depSub2">Analog & Digital Electronics</h4>
+                <input type="text" placeholder="0 - 100">
+            </div>
+
+            <div class="input1">
+                <h4 id="depSub3">Computer Oragnization</h4>
+                <input type="text" placeholder="0 - 100">
+            </div>
+
+            <div class="input1">
+                <h4 id="depSub4">21CSL35 </h4>
+                <input type="text" placeholder="0 - 100">
+            </div>
+
+            <div class="input1">
+                <h4>21SCR36</h4>
+                <input type="text" placeholder="0 - 100">
+            </div>
+
+            <div class="input1">
+                <h4 id="depSub5">CS138X</h4>
+                <input type="text" placeholder="0 - 100">
+            </div>
+
+            <div class="input1">
+                <h4>KSK/KBK</h4>
+                <input type="text" placeholder="0 - 100">
+            </div>
+            <button id="submit_btn" onclick="fun()">Get It</button>
+        </div>
+            <div class="res">
+                <h6>SGPA </h6>
+                <p id="result"> </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desiged & Developed By : <b>Jyotiba SM</b> <a href="https://www.instagram.com/jotiba_s_m/"><img id="ig-img"src="insta.png"></a></p>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+@media screen and (max-width: 640px) {
+
+    body {
+        overflow: scroll;
+    }
+
+    .container{
+        height: 79vh;
+        width: 100vw;
+    }
+
+    .header{
+        height: 8vh;
+        width: 100vw;
+        z-index: 1;
+    }
+    .nav{
+        height: 5vh;
+        width: 100vw;
+    }
+    .footer{
+        height: 8vh;
+        width: 100vw;
+    }
+    .formOne {
+        display: flex;
+        flex-direction: column;
+        /* box-sizing: border-box; */
+        /* margin: auto; */
+        border-radius: 10px;
+        border: 0.5px solid grey;
+        width: 90vw;
+        height: 70vh;
+
+    }
+
+    .input1 {
+        display: flex;
+        height: 10%;
+        width: 90%;
+        margin: 2px auto;
+        background-color: rgb(223, 223, 223);
+        border-radius: 2px;
+    }
+
+    .input1 input {
+        width: 15%;
+        height: 50%;
+        /* margin-left: 98px; */
+        margin-top: 8.5px;
+        margin-right: 3%;
+        border-radius: 2px;
+        position: relative;
+        top: -5px;
+        padding: 5px;
+        border-color: white;
+        font-size: 13px;
+
+    }
+
+
+
+
+    h2 {
+        text-align: center;
+        padding: 15px;
+        font-weight: 100;
+        opacity: 75%;
+        letter-spacing: 1px;
+        font-size: 18px;
+        margin: 15px auto;
+    }
+
+    .input1 h4 {
+        width: 75%;
+        text-align: start;
+        font-family: montserrat;
+        font-weight: 500;
+        font-size: 12px;
+        color: black;
+        margin-right: auto;
+        margin-left: 10px;
+    }
+
+    #ig-img {
+        width: 40px;
+        height: 25px;
+        position: relative;
+        top: 7px;
+        left: -5px;
+    }
+
+    .nav {
+        height: 5vh;
+    }
+
+    .nav ul li {
+        height: 100%;
+        width: 25vw;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .nav ul {
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .heading {
+        /* border: 2px solid red; */
+        height: 15%;
+        width: 100%;
+    }
+
+
+    .container .formOne .subList{
+        /* margin-top: 10px; */
+        margin-top:3%;
+        height: 75%;
+        width: 100%;
+    }
+
+    .container .formOne .res {
+        display: flex;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        border-radius: 2px;
+        height: 10%;
+        width: 100%;
+    }
+
+    #submit_btn {
+        height: 7%;
+        width: 90px;
+        border-radius: 32px;
+        font-family: montserrat;
+        background-color: rgb(47, 47, 236);
+        color: white;
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
+
+
+
+}
